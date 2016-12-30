@@ -17,4 +17,4 @@ build/%.o: %.cpp
 	@echo ' '
 
 clean:
-	rm -f build/*.o $(EXE)*
+	rm -f build/*.o $(EXE)* *.txt
